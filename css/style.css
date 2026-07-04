@@ -550,22 +550,17 @@ h3 {
 }
 .sobre-image-wrap {
   position: relative;
-  max-width: 560px;
+  max-width: 420px;
   margin-left: auto;
 }
 .sobre-img {
   width: 100%;
   display: block;
   border-radius: 20px;
-  filter: brightness(0.82) contrast(1.05);
   box-shadow: 0 28px 70px rgba(220, 221, 225, 0.2);
 }
 .sobre-img-overlay {
-  position: absolute;
-  inset: 0;
-  border-radius: 20px;
-  background: linear-gradient(180deg, rgba(0,0,0,0.24), rgba(0,0,0,0.46));
-  pointer-events: none;
+  display: none;
 }
 .sobre-text .section-eye { text-align: left; }
 .sobre-text h2 { text-align: left; }
