@@ -669,10 +669,18 @@ h3 {
   display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem;
 }
 .contact-icon {
-  width: 40px; height: 40px; border: 1px solid #ddd;
+  width: 44px; height: 44px;
+  border: 1px solid rgba(0,150,214,0.25);
   display: flex; align-items: center; justify-content: center;
-  color: #333333; font-size: 1.1rem; flex-shrink: 0;
-  border-radius: 6px;
+  color: var(--accent); flex-shrink: 0;
+  border-radius: 50%;
+  background: rgba(0,150,214,0.06);
+  transition: border-color .2s, background .2s;
+}
+.contact-icon svg { width: 20px; height: 20px; }
+.contact-detail:hover .contact-icon {
+  border-color: var(--accent);
+  background: rgba(0,150,214,0.12);
 }
 .contact-detail-text strong {
   display: block; font-family: var(--font-d); font-size: 0.78rem;
