@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function getProjectData(id) {
   const projects = {
     'videovigilancia': {
-      img: 'images/hex-cameras1.jpg',
+      img: 'images/seguranca/hex-cameras1.jpg',
       category: 'Sistema de Segurança',
       title: 'Videovigilância — Complexo Empresarial Nampula',
       desc: 'Instalação e configuração completa de sistema de videovigilância com 20 câmeras Hikvision de alta definição, NVR centralizado com capacidade de gravação de 30 dias, e acesso remoto via smartphone e desktop.',
@@ -243,7 +243,7 @@ function getProjectData(id) {
       ]
     },
     'gestao-vendas': {
-      img: 'images/hex-sistemas.jpg',
+      img: 'images/informatica/hex-sistemas.jpg',
       category: 'Desenvolvimento',
       title: 'Sistema de Gestão de Vendas — ECV',
       desc: 'Desenvolvimento de aplicação desktop completa em .NET 8 com SQLite para gestão de vendas, stocks e relatórios financeiros. Sistema modular com interface intuitiva e suporte multi-utilizador.',
@@ -257,7 +257,7 @@ function getProjectData(id) {
       ]
     },
     'rede-corporativa': {
-      img: 'images/hex-redes.jpg',
+      img: 'images/informatica/hex-redes.jpg',
       category: 'Redes',
       title: 'Rede Corporativa Empresarial',
       desc: 'Projecto e implementação de infraestrutura de rede completa para empresa com múltiplos departamentos, incluindo segmentação por VLANs e segurança perimetral.',
@@ -271,7 +271,7 @@ function getProjectData(id) {
       ]
     },
     'portal-web': {
-      img: 'images/hex-web.jpg',
+      img: 'images/informatica/hex-web.jpg',
       category: 'Web',
       title: 'Portal Web Institucional',
       desc: 'Design e desenvolvimento de website profissional responsivo com sistema de gestão de conteúdos, integração com redes sociais e optimização SEO.',
@@ -285,7 +285,7 @@ function getProjectData(id) {
       ]
     },
     'eletrica-industrial': {
-      img: 'images/hex-eletricidade1.jpg',
+      img: 'images/eletricidade/hex-eletricidade1.jpg',
       category: 'Electricidade',
       title: 'Instalação Elétrica Industrial',
       desc: 'Projecto e instalação eléctrica completa para unidade industrial, incluindo quadros de distribuição, iluminação industrial e sistema de emergência.',
@@ -299,7 +299,7 @@ function getProjectData(id) {
       ]
     },
     'cerca-residencial': {
-      img: 'images/hex-cerca.jpg',
+      img: 'images/seguranca/hex-cerca.jpg',
       category: 'Segurança',
       title: 'Cerca Elétrica Residencial',
       desc: 'Instalação de sistema de cerca eléctrica perimetral para residência de alto padrão, com central de alarme integrada e monitorização remota.',
@@ -313,7 +313,7 @@ function getProjectData(id) {
       ]
     },
     'kit-seguranca': {
-      img: 'images/hex-kit-seguranca.jpg',
+      img: 'images/seguranca/hex-kit-seguranca.png',
       category: 'Segurança',
       title: 'Kit Segurança Completo',
       desc: 'Solução integrada de segurança combinando câmeras de vigilância, cerca eléctrica, alarme e controlo de acesso para condomínio residencial.',
@@ -327,7 +327,7 @@ function getProjectData(id) {
       ]
     },
     'consultoria-pme': {
-      img: 'images/hex-dev.jpg',
+      img: 'images/informatica/hex-dev.jpg',
       category: 'Consultoria',
       title: 'Consultoria TI para PME',
       desc: 'Auditoria tecnológica completa e planeamento estratégico de TI para pequena e média empresa, incluindo roadmap de transformação digital.',

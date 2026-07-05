@@ -175,7 +175,7 @@ nav.scrolled {
   position: absolute; inset: 0;
   background-image:
     linear-gradient(180deg, rgba(2, 10, 22, 0.40), rgba(7, 14, 32, 0.30)),
-    url('../images/hero-bg.jpg');
+    url('../images/hero/hero-bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
